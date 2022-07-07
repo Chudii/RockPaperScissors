@@ -4,6 +4,6 @@
 
 ## Required Technologies 
 
-### - HTML
-### - CSS
-### - JS
+#### - HTML
+#### - CSS
+#### - JS
