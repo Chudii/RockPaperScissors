@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+.container {
+    display: flex;
+    position: fixed;
+    bottom: 10%;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+    width: 75vw;
+    height: 30vh;
+    margin-top: -40vh;
+}
+
+.card {
+    display: flex;
+    justify-content: space-around;
+    height: 20vh;
+}
+
+.userChoice {
+    width: 45vw;
+}
+
+.compChoice {
+    width: 15vw;
+    border: 3px solid black;
+}
+
+.choice {
+    width: 33%;
+}
+.choice:hover {
+    transform: scale(1.25, 1.25);
+}
+
+.rock {
+    background-image: url('/images/pixelRock.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.paper {
+    background-image: url('/images/pixelPaper.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.scissors {
+    background-image: url('/images/pixelScissors.png');
+    background-size: 135%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.results {
+    display: flex;
+    position: fixed;
+    bottom: 35%;
+}
+
+.selected {
+    border: 3px solid rgb(54, 69, 151);
+    border-radius: 20%;
+}
