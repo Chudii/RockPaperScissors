@@ -1,6 +1,6 @@
 # RockPaperScissors
 
-### Classic Game of Rock, Paper, Scissors.
+#### Classic Game of Rock, Paper, Scissors.
 
 ## Required Technologies 
 
